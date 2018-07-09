@@ -1,0 +1,13 @@
+{
+  "name": "nuxt-netlify-cms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt generate"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "nuxt": "npm:nuxt-edge"
+  }
+}

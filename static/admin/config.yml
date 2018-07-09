@@ -1,0 +1,16 @@
+backend:
+  name: git-gateway
+  accept_roles:
+    - admin
+    - editor
+
+media_folder: "static/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "products"
+    label: "Product"
+    folder: "content/products"
+    create: true
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
